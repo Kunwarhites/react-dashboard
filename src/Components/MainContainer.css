@@ -1,0 +1,67 @@
+.mainContainer{
+    width: 100%;
+    height: calc(100% - 45px);
+    display: flex;
+    padding-top: 15px;
+}
+
+.mainContainer .left{
+    width: calc(100% - 30%);
+    /* height: 200px;
+    background-color: red; */
+    overflow-y:scroll ;
+    transition: transform 0.3s cubic-bezier(0.17, 0.81, 0.38, 1.39);
+}
+.mainContainer .left::-webkit-scrollbar{
+    display: none;
+}
+.mainContainer .left  .banner{
+    height: 260px;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .4);
+    position: relative;
+
+}
+
+.mainContainer .left  .banner .textContainer{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.mainContainer .left  .banner .textContainer h1{
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.mainContainer .left  .banner .textContainer h2{
+    font-size: 2.5em;
+    color: #23e909;
+    /* color: linear-gradient(#06794e, #00482e); */
+
+    margin: 5px 0;
+}
+.mainContainer .left  .banner .textContainer p{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.mainContainer .left  .banner .textContainer .bid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainContainer .left  .banner .textContainer p{
+    margin-left: 10px;
+}
+.mainContainer .left  .banner .textContainer p span{
+    display: block;
+    color: #23e909;
+}
+.mainContainer .right{
+    width: calc(100% - 70%);
+    /* height: 200px;
+    background-color: blue; */
+
+}

@@ -1,0 +1,74 @@
+menu{
+    width: 100px;
+    height: 100%;
+    background-color:#00482e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.14);
+}
+
+menu img{
+    padding-top: 20px;
+    width: 3rem;
+}
+
+menu ul{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+menu ul li{
+    list-style: none;
+    margin: 20px 0;
+    position: relative;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+ menu ul li a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s;
+ }
+
+ menu ul li a:before{
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: -10px;
+    width: 0px;
+    height: 20px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+menu ul li:hover a{
+    color: #06794e;
+}
+menu ul li:hover a::hover{
+    width: 20px;
+    transition: all 0.2s;
+}
+menu ul li.active a{
+    color: #06794e;
+
+}
+menu ul li.active a::before{
+    width: 20px;
+    transition: all 0.2s;
+}
+
+.lastMenu{
+    margin-top: auto;
+}
+@media only screen and (max-width : 525px) {
+    menu{
+        min-width: 68px;
+        width: 68px;
+    }
+}
