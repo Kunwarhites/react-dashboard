@@ -59,6 +59,34 @@
     display: block;
     color: #23e909;
 }
+
+/* Cards */
+.mainContainer .left .cards{
+    background-color:#00482e;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: .5em;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+.mainContainer .left .cards .filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.mainContainer .left .cards .filters .popular{
+    display: flex;
+    align-items: center;
+}
+.mainContainer .left .cards .filters .popular h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
 .mainContainer .right{
     width: calc(100% - 70%);
     /* height: 200px;

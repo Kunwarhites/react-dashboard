@@ -32,3 +32,17 @@ code {
   margin-right: 10px;
   cursor: pointer;
 }
+.button2{
+  text-decoration: none;
+  font-size: 14px;
+  color: #d1d0d5;
+  font-weight: bold;
+  border: 2px solid #06794e;
+  /* background: linear-gradient(#06794e, #00482e); */
+  padding: 5px 15px;
+  border-radius: .5em;
+  /* text-transform: uppercase; */
+  /* box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -5px -10px 10px #06794e; */
+  margin:0px 5px;
+  cursor: pointer;
+}
