@@ -137,7 +137,9 @@
     color: #ffffff;
     text-align: left;
 }
-
+.topContainer .profileContainer .menuContainer ul li i{
+    margin-right: 10px;
+}
 .topContainer .profileContainer .menuContainer ul li:hover {
     background-color:#022a19;
     color: #ffffff;

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { BiSearchAlt } from "react-icons/bi";
-import { FaBell, FaChevronDown } from "react-icons/fa";
+import { FaBell, FaChevronDown, FaCog, FaSignOutAlt, FaUser } from "react-icons/fa";
 
 import Logo from "../Asset/Profile/profile.png";
 
@@ -57,9 +57,9 @@ function TopContainer() {
             </i>
             <div className="menuContainer" id="menuContainer">
                 <ul>
-                    <li>Web Design</li>
-                    <li>UI / UX</li>
-                    <li>UI Design</li>
+                    <li><i><FaUser /></i> Profile</li>
+                    <li><i><FaCog /></i> Setting</li>
+                    <li><i><FaSignOutAlt /></i> Logout</li>
                 </ul>
             </div>
         </div>   
